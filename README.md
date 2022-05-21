@@ -56,7 +56,32 @@ public class NumberExample {
 - If all these function have the same body and are doing the same thing then why are we creating this function again and again?
 
   Solution: call the function itself
+  
+- Parmameter is calling **n+1** and when the value of n is 5 it is not calling anything
+- Recurssion is a function that call itself
 
+```
+public class NumberExample {
+    public static void main(String args[])
+    {
+        // write a function that takes in a number and print it
+        // print first  5 numbers: 1 2 3 4 5
+        print(1);
+
+    }
+
+    static void print(int n)
+    {
+        if(n ==5)
+        {
+            System.out.println(5);
+            return;
+        }
+        System.out.println(n);
+        print(n+1);
+    }
+}
+```
   
 
 
