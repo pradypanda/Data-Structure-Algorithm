@@ -85,6 +85,12 @@ public class NumberExample {
 
 - Base Condition in Recursion:
    It is a Condition where our recurssion will stop making new calls. 
+   
+### Recursive call
+- If you are calling a function again and again, you can treat it as a seperate call in the stack
+- If there are no Base 
+
+
   
 
 
