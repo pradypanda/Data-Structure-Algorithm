@@ -82,6 +82,9 @@ public class NumberExample {
     }
 }
 ```
+
+- Base Condition in Recursion:
+   It is a Condition where our recurssion will stop making new calls. 
   
 
 
