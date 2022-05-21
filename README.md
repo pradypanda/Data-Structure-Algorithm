@@ -1,7 +1,7 @@
 # Data-Structure-Algorithm
 ### RECURSION
 - Function calling another function
-- Function are excuted in the stack memory
+- Function are excuted in the **STACK** memory
 ```
 public class NumberExample {
     public static void main(String args[])
@@ -43,9 +43,9 @@ public class NumberExample {
 ```
 - How function call works internally?
 - NOTE:
-    1. While the function is not finished executing it will remain in stack
+    1. While the function is not finished executing it will remain in **STACK**
     2. When a function finishes its execution it is **removed from stack** and the **flow of program is restored to program where the function was called.**
-    3. Main function is the last function that is removed from stack
+    3. Main function is the last function that is removed from **STACK** and the first one to enter into **STACK** memory
         ![image](https://user-images.githubusercontent.com/61123137/169643698-1dc8b384-2d37-4e2d-a47b-16d1afe78072.png)
         
  - Same action is present in the body:
