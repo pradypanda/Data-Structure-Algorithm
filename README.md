@@ -88,7 +88,23 @@ public class NumberExample {
    
 ### Recursive call
 - If you are calling a function again and again, you can treat it as a seperate call in the stack
-- If there are no Base 
+- If there are no Base Condition --> Function calls will keep happening --> stack will be filled again and again --> We know that every function call consumes memory
+  --> at a given moment **Memory of computer will exceed the limit**, resulting into stackoverflow error
+  
+### Why do we need Recursion?
+- It helps us in soving bigger/complex problem in a simple way.
+- you can convert recursion solution into iteration & vice versa
+    eg: First solve the problem statement using recursion and then convert it into iteration to get an optimized solution
+- Space complexity is not constant because of recursive call
+- It helps us in breaking down bigger problems into smaller problems
+
+### Visualizing Recursion   VVVVI
+![image](https://user-images.githubusercontent.com/61123137/169655835-0d6a6a77-7477-4deb-bc46-5f572f8dc933.png)
+
+- This is called as **Recursion Treee**
+
+
+
 
 
   
