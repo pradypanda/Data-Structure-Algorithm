@@ -103,7 +103,33 @@ public class NumberExample {
 
 - This is called as **Recursion Treee**
 - we will be using the **Recursion Treee** concept to solve complex and visulaize comolex problems.
-- 
+
+
+
+# String in JAVA
+
+- 4 ways to define string in java:
+1. Character Array/ArrayList
+```
+syntax:
+char []arr = ['g','e','e','k','s'];
+```
+
+2. String Class
+- It is Immutable class
+```
+syntax:
+String str="geeks";
+
+    OR
+    
+String str = new String("geeks");
+```
+
+3. StringBuffer class
+- It is Mutable class
+- It is thread safe
+-
 
 
 
