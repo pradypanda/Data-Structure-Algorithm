@@ -166,6 +166,9 @@ StringBuilder str = new StringBuilder("geeks");
 
 ![image](https://user-images.githubusercontent.com/61123137/173686257-47cccebc-29fc-4a79-8d09-086169c757d7.png)
 
+![image](https://user-images.githubusercontent.com/61123137/173687306-0fe375ec-64eb-4900-af3a-cfa594aeb2c9.png)
+
+
 
 
 
