@@ -134,7 +134,7 @@ syntax:
 
 StringBuffer str = new StringBuffer("geeks");
 ```
-### 3. StringBuilder class
+### 4. StringBuilder class
 - It is Mutable class
 - It is not thread safe
 ```
@@ -142,6 +142,25 @@ syntax:
 
 StringBuilder str = new StringBuilder("geeks");
 ```
+
+![image](https://user-images.githubusercontent.com/61123137/173683733-1c0d0f95-a590-472c-b837-c9f912baea9c.png)
+
+
+![image](https://user-images.githubusercontent.com/61123137/173683895-062dced7-3907-4f12-b16e-a22e16d5524e.png)
+
+- s1 == s1 --> It compare whether instance s1 & s2 belong to same memory aor not. for content comparison we have equal and compare method.
+- contains()
+![image](https://user-images.githubusercontent.com/61123137/173685140-fcae09b5-ee3a-45cf-8e62-57b1edbc67d7.png)
+
+- equals()
+![image](https://user-images.githubusercontent.com/61123137/173685416-8ea4b1d8-0370-4ab8-b0da-86772374a1c7.png)
+
+- compareTo()
+![image](https://user-images.githubusercontent.com/61123137/173685676-b7a8ea08-687e-4d9b-a195-d28d4970c9af.png)
+
+- indexOf()
+![image](https://user-images.githubusercontent.com/61123137/173686257-47cccebc-29fc-4a79-8d09-086169c757d7.png)
+
 
 
 
