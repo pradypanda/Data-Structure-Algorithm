@@ -109,13 +109,13 @@ public class NumberExample {
 # String in JAVA
 
 - 4 ways to define string in java:
-1. Character Array/ArrayList
+### 1. Character Array/ArrayList
 ```
 syntax:
 char []arr = ['g','e','e','k','s'];
 ```
 
-2. String Class
+### 2. String Class
 - It is Immutable class
 ```
 syntax:
@@ -126,10 +126,22 @@ String str="geeks";
 String str = new String("geeks");
 ```
 
-3. StringBuffer class
+### 3. StringBuffer class
 - It is Mutable class
 - It is thread safe
--
+```
+syntax:
+
+StringBuffer str = new StringBuffer("geeks");
+```
+### 3. StringBuilder class
+- It is Mutable class
+- It is not thread safe
+```
+syntax:
+
+StringBuilder str = new StringBuilder("geeks");
+```
 
 
 
